@@ -6,7 +6,40 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		545FDFE71C819102000D4E6A /* Universal Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 545FDFE81C819103000D4E6A /* Build configuration list for PBXAggregateTarget "Universal Framework" */;
+			buildPhases = (
+				545FDFEB1C819107000D4E6A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Universal Framework";
+			productName = "Universal Framework";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		545FDFCD1C818F50000D4E6A /* KxSMB_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 545FDFCC1C818F50000D4E6A /* KxSMB_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545FDFD11C818F50000D4E6A /* KxSMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFCA1C818F4F000D4E6A /* KxSMB.framework */; };
+		545FDFD21C818F50000D4E6A /* KxSMB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFCA1C818F4F000D4E6A /* KxSMB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		545FDFD81C818F93000D4E6A /* KxSMBProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 87085FB31705D494009CD258 /* KxSMBProvider.m */; };
+		545FDFD91C81901B000D4E6A /* talloc_stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 871CC5591774491A00EDD76D /* talloc_stack.h */; };
+		545FDFDA1C81901B000D4E6A /* talloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 871CC5581774489A00EDD76D /* talloc.h */; };
+		545FDFDB1C81901B000D4E6A /* libsmbclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 87085FC01705D4CA009CD258 /* libsmbclient.h */; };
+		545FDFDC1C819031000D4E6A /* libsmbclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085FBF1705D4CA009CD258 /* libsmbclient.a */; };
+		545FDFDD1C819031000D4E6A /* libtalloc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085FC11705D4CA009CD258 /* libtalloc.a */; };
+		545FDFDE1C819031000D4E6A /* libtdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085FC21705D4CA009CD258 /* libtdb.a */; };
+		545FDFDF1C819031000D4E6A /* libwbclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085FC31705D4CA009CD258 /* libwbclient.a */; };
+		545FDFE01C819031000D4E6A /* libtevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC6EFED179A4133005AC807 /* libtevent.a */; };
+		545FDFE21C819047000D4E6A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFE11C819047000D4E6A /* libz.tbd */; };
+		545FDFE41C81904D000D4E6A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFE31C81904D000D4E6A /* libiconv.tbd */; };
+		545FDFE61C819066000D4E6A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFE51C819066000D4E6A /* libresolv.tbd */; };
+		545FDFEC1C81931F000D4E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F8E1705D46C009CD258 /* Foundation.framework */; };
+		545FDFEE1C819350000D4E6A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545FDFED1C819350000D4E6A /* CoreFoundation.framework */; };
+		545FDFEF1C81935F000D4E6A /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F992AF0B1BC3D3CC0063A4B3 /* QuickLook.framework */; };
+		545FE0121C819660000D4E6A /* KxSMBProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 87085FB21705D494009CD258 /* KxSMBProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87085F8D1705D46C009CD258 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F8C1705D46C009CD258 /* UIKit.framework */; };
 		87085F8F1705D46C009CD258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F8E1705D46C009CD258 /* Foundation.framework */; };
 		87085F911705D46C009CD258 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F901705D46C009CD258 /* CoreGraphics.framework */; };
@@ -33,7 +66,28 @@
 		F992AF0C1BC3D3CC0063A4B3 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F992AF0B1BC3D3CC0063A4B3 /* QuickLook.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		545FDFCF1C818F50000D4E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87085F811705D46B009CD258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545FDFC91C818F4F000D4E6A;
+			remoteInfo = KxSMB_Framework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		545FDFD61C818F50000D4E6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				545FDFD21C818F50000D4E6A /* KxSMB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		871CC5721774589C00EDD76D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +100,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		545FDFCA1C818F4F000D4E6A /* KxSMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KxSMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545FDFCC1C818F50000D4E6A /* KxSMB_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KxSMB_Framework.h; sourceTree = "<group>"; };
+		545FDFCE1C818F50000D4E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545FDFE11C819047000D4E6A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		545FDFE31C81904D000D4E6A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		545FDFE51C819066000D4E6A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		545FDFED1C819350000D4E6A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		545FE0111C81961B000D4E6A /* KxSMB.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = KxSMB.modulemap; sourceTree = "<group>"; };
 		87085F891705D46C009CD258 /* KxSMBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxSMBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87085F8C1705D46C009CD258 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87085F8E1705D46C009CD258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +146,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		545FDFC61C818F4F000D4E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545FDFEF1C81935F000D4E6A /* QuickLook.framework in Frameworks */,
+				545FDFEE1C819350000D4E6A /* CoreFoundation.framework in Frameworks */,
+				545FDFEC1C81931F000D4E6A /* Foundation.framework in Frameworks */,
+				545FDFE61C819066000D4E6A /* libresolv.tbd in Frameworks */,
+				545FDFE41C81904D000D4E6A /* libiconv.tbd in Frameworks */,
+				545FDFE21C819047000D4E6A /* libz.tbd in Frameworks */,
+				545FDFDE1C819031000D4E6A /* libtdb.a in Frameworks */,
+				545FDFE01C819031000D4E6A /* libtevent.a in Frameworks */,
+				545FDFDF1C819031000D4E6A /* libwbclient.a in Frameworks */,
+				545FDFDD1C819031000D4E6A /* libtalloc.a in Frameworks */,
+				545FDFDC1C819031000D4E6A /* libsmbclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87085F861705D46C009CD258 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +172,7 @@
 				87085FCD1705D509009CD258 /* libresolv.dylib in Frameworks */,
 				87085FCB1705D503009CD258 /* libiconv.dylib in Frameworks */,
 				87085FC91705D4FD009CD258 /* libz.dylib in Frameworks */,
+				545FDFD11C818F50000D4E6A /* KxSMB.framework in Frameworks */,
 				87085F8D1705D46C009CD258 /* UIKit.framework in Frameworks */,
 				87085F8F1705D46C009CD258 /* Foundation.framework in Frameworks */,
 				87085F911705D46C009CD258 /* CoreGraphics.framework in Frameworks */,
@@ -114,14 +195,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545FDFCB1C818F4F000D4E6A /* KxSMB_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				545FDFCC1C818F50000D4E6A /* KxSMB_Framework.h */,
+				545FDFCE1C818F50000D4E6A /* Info.plist */,
+			);
+			path = KxSMB_Framework;
+			sourceTree = "<group>";
+		};
 		87085F801705D46B009CD258 = {
 			isa = PBXGroup;
 			children = (
 				87085FB21705D494009CD258 /* KxSMBProvider.h */,
 				87085FB31705D494009CD258 /* KxSMBProvider.m */,
+				545FE0111C81961B000D4E6A /* KxSMB.modulemap */,
 				87085FBE1705D4BE009CD258 /* libs */,
 				87085F921705D46C009CD258 /* KxSMBSample */,
 				871CC5761774589C00EDD76D /* KxSMB */,
+				545FDFCB1C818F4F000D4E6A /* KxSMB_Framework */,
 				87085F8B1705D46C009CD258 /* Frameworks */,
 				87085F8A1705D46C009CD258 /* Products */,
 			);
@@ -132,6 +224,7 @@
 			children = (
 				87085F891705D46C009CD258 /* KxSMBSample.app */,
 				871CC5741774589C00EDD76D /* libKxSMB.a */,
+				545FDFCA1C818F4F000D4E6A /* KxSMB.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +232,10 @@
 		87085F8B1705D46C009CD258 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				545FDFED1C819350000D4E6A /* CoreFoundation.framework */,
+				545FDFE51C819066000D4E6A /* libresolv.tbd */,
+				545FDFE31C81904D000D4E6A /* libiconv.tbd */,
+				545FDFE11C819047000D4E6A /* libz.tbd */,
 				F992AF0B1BC3D3CC0063A4B3 /* QuickLook.framework */,
 				87085FCC1705D509009CD258 /* libresolv.dylib */,
 				87085FCA1705D503009CD258 /* libiconv.dylib */,
@@ -213,7 +310,40 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		545FDFC71C818F4F000D4E6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545FDFCD1C818F50000D4E6A /* KxSMB_Framework.h in Headers */,
+				545FE0121C819660000D4E6A /* KxSMBProvider.h in Headers */,
+				545FDFD91C81901B000D4E6A /* talloc_stack.h in Headers */,
+				545FDFDA1C81901B000D4E6A /* talloc.h in Headers */,
+				545FDFDB1C81901B000D4E6A /* libsmbclient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		545FDFC91C818F4F000D4E6A /* KxSMB_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545FDFD51C818F50000D4E6A /* Build configuration list for PBXNativeTarget "KxSMB_Framework" */;
+			buildPhases = (
+				545FDFC51C818F4F000D4E6A /* Sources */,
+				545FDFC61C818F4F000D4E6A /* Frameworks */,
+				545FDFC71C818F4F000D4E6A /* Headers */,
+				545FDFC81C818F4F000D4E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxSMB_Framework;
+			productName = KxSMB_Framework;
+			productReference = 545FDFCA1C818F4F000D4E6A /* KxSMB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		87085F881705D46C009CD258 /* KxSMBSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87085FAF1705D46C009CD258 /* Build configuration list for PBXNativeTarget "KxSMBSample" */;
@@ -221,19 +351,21 @@
 				87085F851705D46C009CD258 /* Sources */,
 				87085F861705D46C009CD258 /* Frameworks */,
 				87085F871705D46C009CD258 /* Resources */,
+				545FDFD61C818F50000D4E6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				545FDFD01C818F50000D4E6A /* PBXTargetDependency */,
 			);
 			name = KxSMBSample;
 			productName = KxSMBSample;
 			productReference = 87085F891705D46C009CD258 /* KxSMBSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		871CC5731774589C00EDD76D /* KxSMB */ = {
+		871CC5731774589C00EDD76D /* KxSMB_Static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 871CC57F1774589C00EDD76D /* Build configuration list for PBXNativeTarget "KxSMB" */;
+			buildConfigurationList = 871CC57F1774589C00EDD76D /* Build configuration list for PBXNativeTarget "KxSMB_Static" */;
 			buildPhases = (
 				871CC5701774589C00EDD76D /* Sources */,
 				871CC5711774589C00EDD76D /* Frameworks */,
@@ -243,7 +375,7 @@
 			);
 			dependencies = (
 			);
-			name = KxSMB;
+			name = KxSMB_Static;
 			productName = KxSMB;
 			productReference = 871CC5741774589C00EDD76D /* libKxSMB.a */;
 			productType = "com.apple.product-type.library.static";
@@ -256,6 +388,14 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Konstantin Bukreev";
+				TargetAttributes = {
+					545FDFC91C818F4F000D4E6A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					545FDFE71C819102000D4E6A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
 			};
 			buildConfigurationList = 87085F841705D46B009CD258 /* Build configuration list for PBXProject "KxSMBSample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -270,12 +410,21 @@
 			projectRoot = "";
 			targets = (
 				87085F881705D46C009CD258 /* KxSMBSample */,
-				871CC5731774589C00EDD76D /* KxSMB */,
+				871CC5731774589C00EDD76D /* KxSMB_Static */,
+				545FDFC91C818F4F000D4E6A /* KxSMB_Framework */,
+				545FDFE71C819102000D4E6A /* Universal Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		545FDFC81C818F4F000D4E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87085F871705D46C009CD258 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,7 +438,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		545FDFEB1C819107000D4E6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=true\n\nFRAMEWORK_NAME=\"KxSMB\"\n\nFRAMEWORK_SCHEME=\"KxSMB_Framework\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n\n######################\n# Build Frameworks\n######################\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${FRAMEWORK_SCHEME} -sdk iphonesimulatorclean build -configuration ${CONFIGURATION}  CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${FRAMEWORK_SCHEME} -sdk iphoneos clean build -configuration ${CONFIGURATION} CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n\n# For Swift framework, Swiftmodule needs to be copied in the universal framework\nif [ -d \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\n  cp -f \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/*\" \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\nfi\n\nif [ -d \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\n  cp -f \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/*\" \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\nfi\n\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		545FDFC51C818F4F000D4E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545FDFD81C818F93000D4E6A /* KxSMBProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87085F851705D46C009CD258 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,6 +486,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		545FDFD01C818F50000D4E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545FDFC91C818F4F000D4E6A /* KxSMB_Framework */;
+			targetProxy = 545FDFCF1C818F50000D4E6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		87085F951705D46C009CD258 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -325,6 +506,102 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		545FDFD31C818F50000D4E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KxSMB_Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				MODULEMAP_FILE = KxSMB.modulemap;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.ignition.KxSMB-Framework";
+				PRODUCT_NAME = KxSMB;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		545FDFD41C818F50000D4E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KxSMB_Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				MODULEMAP_FILE = KxSMB.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.ignition.KxSMB-Framework";
+				PRODUCT_NAME = KxSMB;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		545FDFE91C819103000D4E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = KxSMB;
+			};
+			name = Debug;
+		};
+		545FDFEA1C819103000D4E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = KxSMB;
+			};
+			name = Release;
+		};
 		87085FAD1705D46C009CD258 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +669,7 @@
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 				INFOPLIST_FILE = "KxSMBSample/KxSMBSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/libs\"",
@@ -411,6 +689,7 @@
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 				INFOPLIST_FILE = "KxSMBSample/KxSMBSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/libs\"",
@@ -429,7 +708,7 @@
 				GCC_PREFIX_HEADER = "KxSMB/KxSMB-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KxSMB;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 			};
@@ -443,7 +722,7 @@
 				GCC_PREFIX_HEADER = "KxSMB/KxSMB-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KxSMB;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libs\"";
 			};
@@ -452,6 +731,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		545FDFD51C818F50000D4E6A /* Build configuration list for PBXNativeTarget "KxSMB_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545FDFD31C818F50000D4E6A /* Debug */,
+				545FDFD41C818F50000D4E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545FDFE81C819103000D4E6A /* Build configuration list for PBXAggregateTarget "Universal Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545FDFE91C819103000D4E6A /* Debug */,
+				545FDFEA1C819103000D4E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		87085F841705D46B009CD258 /* Build configuration list for PBXProject "KxSMBSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -470,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		871CC57F1774589C00EDD76D /* Build configuration list for PBXNativeTarget "KxSMB" */ = {
+		871CC57F1774589C00EDD76D /* Build configuration list for PBXNativeTarget "KxSMB_Static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				871CC57D1774589C00EDD76D /* Debug */,

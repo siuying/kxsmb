@@ -1,0 +1,6 @@
+framework module KxSMB {
+    umbrella header "KxSMB_Framework.h"
+
+    export *
+    module * { export * }
+}
